@@ -6,7 +6,7 @@ Reveal.jsを使った学生向けプレゼンテーションスライド集。Gi
 
 | タイトル | 説明 |
 |---------|------|
-| [浜名湖 観光案内](hamanako_reveal.html) | 静岡県西部の浜名湖エリアの観光スポット、グルメ、アクティビティを紹介 |
+| [浜名湖 観光案内](https://kklab.mobi/PresenWithRevealJS/hamanako_reveal.html) | 静岡県西部の浜名湖エリアの観光スポット、グルメ、アクティビティを紹介 |
 
 👉 **[すべてのプレゼンを見る](https://kklab.mobi/PresenWithRevealJS/)**
 
