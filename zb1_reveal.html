@@ -27,10 +27,30 @@
       }
 
       <style>
+<style>
   body {
     background: #e8f0ff;
-    ...
+    font-family: "Helvetica", "Yu Gothic", sans-serif;
   }
+
+  h1, h2, h3 {
+    color: #3a4fa7;
+    letter-spacing: 1px;
+  }
+
+  .member-photo {
+    width: 260px;
+    border-radius: 14px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    margin-top: 20px;
+  }
+
+  .eng-name {
+    font-size: 12px;
+    color: #666;
+    margin-top: -6px;
+  }
+</style>
 </style>
     </style>
   </head>
@@ -57,9 +77,36 @@
         <section>
           <!-- 下矢印でめくる縦スライド -->
           <section>
-            <h2>メンバー紹介①</h2>
-            <p>ここにメンバー1人目の情報</p>
-          </section>
+  <h2>メンバー紹介</h2>
+
+  <div class="three-members">
+
+    <!-- 1人目：ハンビン -->
+    <div class="member-box">
+      <img src="images/hanbin.jpg" class="member-photo">
+      <p><strong>ハンビン</strong></p>
+      <p class="eng-name">SUNG HANBIN</p>
+      <p class="comment">リーダー</p>
+    </div>
+
+    <!-- 2人目：ジウン -->
+    <div class="member-box">
+      <img src="images/jiwoong.jpg" class="member-photo">
+      <p><strong>ジウン</strong></p>
+      <p class="eng-name">KIM JIWOONG</p>
+      <p class="comment">最年長の気まぐれねこさん</p>
+    </div>
+
+    <!-- 3人目：ハオ -->
+    <div class="member-box">
+      <img src="images/hao.jpg" class="member-photo">
+      <p><strong>ハオ</strong></p>
+      <p class="eng-name">ZHANG HAO</p>
+      <p class="comment">甘えたがりのお兄さん</p>
+    </div>
+
+  </div>
+</section>
 
           <section>
             <h2>メンバー紹介②</h2>
