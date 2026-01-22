@@ -4,19 +4,34 @@
     <meta charset="utf-8">
     <title>ZEROBASEONE スライド</title>
 
-    <!-- Reveal.js のCSS -->
+    <!-- Reveal.js CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.0.4/reveal.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.0.4/theme/black.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.0.4/theme/white.min.css">
 
     <style>
-      /* スライド内のカスタムスタイル */
-      h1, h2, h3 {
-        font-family: "Helvetica", sans-serif;
+      /* 全体のフォントと雰囲気 */
+      body {
+        font-family: "Helvetica", "Yu Gothic", sans-serif;
       }
+
+      h1, h2, h3 {
+        color: #3a4fa7; /* ZB1ブルー */
+        letter-spacing: 1px;
+      }
+
+      /* メンバー写真のスタイル */
       .member-photo {
-        width: 250px;
-        border-radius: 12px;
+        width: 260px;
+        border-radius: 14px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.15);
         margin-top: 20px;
+      }
+
+      /* スライド背景を少し淡いブルーに */
+      .reveal section {
+        background: rgba(230, 240, 255, 0.4);
+        border-radius: 20px;
+        padding: 40px;
       }
     </style>
   </head>
@@ -29,21 +44,21 @@
         <section>
           <h1>ZEROBASEONE</h1>
           <h3>ZB1 スライド</h3>
-          <p>美優の推し紹介スライド</p>
+          <p>美優の推し紹介</p>
         </section>
 
         <!-- 2枚目：グループ紹介 -->
         <section>
           <h2>ZEROBASEONEとは</h2>
-          <p>2023年にデビューしたボーイズグループ</p>
-          <p>9人組で、Mnetのオーディション番組から誕生</p>
+          <p>2023年デビューの9人組ボーイズグループ</p>
+          <p>Mnetのオーディション番組から誕生</p>
         </section>
 
         <!-- 3枚目：メンバー紹介（例） -->
         <section>
           <h2>メンバー紹介（例）</h2>
           <p>ここに好きなメンバーの写真や名前を入れてね</p>
-          <!-- 画像を入れたい場合はこんな感じ -->
+          <!-- 画像を入れるときはこんな感じ -->
           <!-- <img src="images/hanbin.jpg" class="member-photo"> -->
         </section>
 
@@ -57,7 +72,7 @@
           </ul>
         </section>
 
-        <!-- 5枚目：最後のスライド -->
+        <!-- 5枚目：最後 -->
         <section>
           <h2>Thank you!</h2>
           <p>見てくれてありがとう</p>
@@ -71,7 +86,8 @@
     <script>
       Reveal.initialize({
         hash: true,
-        slideNumber: true
+        slideNumber: true,
+        transition: "fade"
       });
     </script>
   </body>
