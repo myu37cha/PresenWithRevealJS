@@ -1,79 +1,33 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ja">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>プレゼンテーション一覧</title>
-  <style>
-    * { box-sizing: border-box; margin: 0; padding: 0; }
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
-      min-height: 100vh;
-      color: #fff;
-      padding: 40px 20px;
-    }
-    .container {
-      max-width: 800px;
-      margin: 0 auto;
-    }
-    h1 {
-      text-align: center;
-      margin-bottom: 40px;
-      font-size: 2rem;
-      font-weight: 600;
-    }
-    .presentation-list {
-      list-style: none;
-      display: grid;
-      gap: 16px;
-    }
-    .presentation-item a {
-      display: block;
-      background: rgba(255, 255, 255, 0.1);
-      border: 1px solid rgba(255, 255, 255, 0.2);
-      border-radius: 12px;
-      padding: 24px;
-      text-decoration: none;
-      color: #fff;
-      transition: all 0.2s ease;
-    }
-    .presentation-item a:hover {
-      background: rgba(255, 255, 255, 0.15);
-      border-color: rgba(255, 255, 255, 0.4);
-      transform: translateY(-2px);
-    }
-    .presentation-title {
-      font-size: 1.25rem;
-      font-weight: 600;
-      margin-bottom: 8px;
-    }
-    .presentation-desc {
-      font-size: 0.9rem;
-      color: rgba(255, 255, 255, 0.7);
-    }
-    footer {
-      text-align: center;
-      margin-top: 60px;
-      color: rgba(255, 255, 255, 0.5);
-      font-size: 0.85rem;
-    }
-  </style>
-</head>
-<body>
-  <div class="container">
-    <h1>プレゼンテーション一覧</h1>
-    <ul class="presentation-list">
-      <li class="presentation-item">
-        <a href="hamanako_reveal.html">
-          <div class="presentation-title">浜名湖 観光案内</div>
-          <div class="presentation-desc">静岡県西部の浜名湖エリアの観光スポット、グルメ、アクティビティを紹介</div>
-        </a>
-      </li>
-    </ul>
-    <footer>
-      <p>Powered by <a href="https://revealjs.com/" style="color: #ffd54f;">Reveal.js</a></p>
-    </footer>
-  </div>
-</body>
+  <head>
+    <meta charset="utf-8">
+    <title>ZB1 スライド入口</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        background: #f5f5f5;
+        text-align: center;
+        padding-top: 80px;
+      }
+      a {
+        display: inline-block;
+        padding: 15px 25px;
+        background: #4a6cf7;
+        color: white;
+        text-decoration: none;
+        border-radius: 8px;
+        font-size: 20px;
+      }
+      a:hover {
+        background: #3554d4;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>ZEROBASEONE スライド</h1>
+    <p>下のボタンからスライドへ進めます</p>
+
+    <a href="zb1_reveal.html">スライドを見る</a>
+  </body>
 </html>
