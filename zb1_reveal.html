@@ -9,9 +9,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.0.4/theme/white.min.css">
 
     <style>
-      /* 全体のフォントと雰囲気 */
       body {
+        background: #e8f0ff; /* 淡いブルー */
         font-family: "Helvetica", "Yu Gothic", sans-serif;
+      }
+
+      /* スライドの白背景を消す */
+      .reveal section {
+        background: none !important;
+        box-shadow: none !important;
       }
 
       h1, h2, h3 {
@@ -19,19 +25,11 @@
         letter-spacing: 1px;
       }
 
-      /* メンバー写真のスタイル */
       .member-photo {
         width: 260px;
         border-radius: 14px;
         box-shadow: 0 4px 12px rgba(0,0,0,0.15);
         margin-top: 20px;
-      }
-
-      /* スライド背景を少し淡いブルーに */
-      .reveal section {
-        background: rgba(230, 240, 255, 0.4);
-        border-radius: 20px;
-        padding: 40px;
       }
     </style>
   </head>
@@ -54,15 +52,44 @@
           <p>Mnetのオーディション番組から誕生</p>
         </section>
 
-        <!-- 3枚目：メンバー紹介（例） -->
+        <!-- 3枚目：メンバー紹介（縦スライド3枚） -->
         <section>
-          <h2>メンバー紹介（例）</h2>
-          <p>ここに好きなメンバーの写真や名前を入れてね</p>
-          <!-- 画像を入れるときはこんな感じ -->
-          <!-- <img src="images/hanbin.jpg" class="member-photo"> -->
+          <!-- 下矢印でめくる縦スライド -->
+          <section>
+            <h2>メンバー紹介①</h2>
+            <p>ここにメンバー1人目の情報</p>
+          </section>
+
+          <section>
+            <h2>メンバー紹介②</h2>
+            <p>ここにメンバー2人目の情報</p>
+          </section>
+
+          <section>
+            <h2>メンバー紹介③</h2>
+            <p>ここにメンバー3人目の情報</p>
+          </section>
         </section>
 
-        <!-- 4枚目：好きな曲 -->
+        <!-- 4枚目：推し -->
+        <section>
+          <h2>推し</h2>
+          <p>あなたの推しの紹介</p>
+        </section>
+
+        <!-- 5枚目：推しケミ① -->
+        <section>
+          <h2>推しケミ①</h2>
+          <p>推し同士のケミ紹介①</p>
+        </section>
+
+        <!-- 6枚目：推しケミ② -->
+        <section>
+          <h2>推しケミ②</h2>
+          <p>推し同士のケミ紹介②</p>
+        </section>
+
+        <!-- 7枚目：好きな曲 -->
         <section>
           <h2>好きな曲</h2>
           <ul>
@@ -72,7 +99,19 @@
           </ul>
         </section>
 
-        <!-- 5枚目：最後 -->
+        <!-- 8枚目：MVの魅力 -->
+        <section>
+          <h2>MVの魅力</h2>
+          <p>ここにMVのポイントを書く</p>
+        </section>
+
+        <!-- 9枚目：ZB1の好きなところ -->
+        <section>
+          <h2>ZB1の好きなところ</h2>
+          <p>あなたの気持ちを書く</p>
+        </section>
+
+        <!-- 10枚目：最後 -->
         <section>
           <h2>Thank you!</h2>
           <p>見てくれてありがとう</p>
